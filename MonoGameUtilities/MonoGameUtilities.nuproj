@@ -19,19 +19,18 @@
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
     <Id>MonoGameUtilities</Id>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Title>MonoGameUtilities</Title>
     <Authors>Shon Verch</Authors>
     <Owners>Shon Verch</Owners>
     <Summary>MonoGameUtilities</Summary>
-    <Description>MonoGameUtilities</Description>
+    <Description>A library consisting of MonoGame helpers and utilities.</Description>
     <ReleaseNotes>
     </ReleaseNotes>
     <ProjectUrl>https://github.com/GalacticGlum/MonoGameUtilities</ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
+    <LicenseUrl>https://github.com/GalacticGlum/MonoGameUtilities/blob/master/LICENSE</LicenseUrl>
     <Copyright>Copyright © Shon Verch</Copyright>
-    <Tags>MonoGameUtilities</Tags>
+    <Tags>MonoGame</Tags>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
